@@ -4,6 +4,10 @@
 
 // Определи, есть ли во входной строке номер СНИЛС.
 function hasSNILS(string) {
+    // let regex = /([0-9]{3})[-]([0-9]{3})[-]([0-9]{3})[' ']([0-9]{2})/;
+    // return regex.test(string)
+    let regex = /(([0-9]{3}[-]){2})([0-9]{3})[' ']([0-9]{2})/;
+    return regex.test(string)
 }
 
 

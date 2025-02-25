@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Elbrus-Bootcamp/core-regular-expressions#readme",
   "devDependencies": {
-    "jest": "^28.1.0"
+    "jest": "^28.1.3"
   }
 }
