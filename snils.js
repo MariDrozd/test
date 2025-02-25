@@ -14,7 +14,7 @@ function hasSNILS(string) {
 // Найди и верни номер СНИЛС из строки.
 function grabSNILS(string) {
     let regex = /(([0-9]{3}[-]){2})([0-9]{3})[' ']([0-9]{2})/;
-    return string.match(regex)
+    return string.match(regex)[0];
 }
 
 
