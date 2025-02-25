@@ -20,8 +20,10 @@ function grabSNILS(string) {
 
 // Найди и верни все номера СНИЛС, что есть в строке.
 function grabAllSNILS(string) {
-
+    let regex = /(([0-9]{3}[-]){2})([0-9]{3})[' ']([0-9]{2})/g;
+    return string.match(regex);
 }
+
 
 
 // Зашифруй номера СНИЛС. Example: XXX-XXX-XXX 30.
