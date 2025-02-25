@@ -1,25 +1,25 @@
 {
-  "name": "test",
+  "name": "core-regular-expressions",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "В этой задаче ты будешь работать со строками и `RegExp`. Если говорить более конкретно, то ты будешь проверять строки на их соответствие определенным символьным шаблонам, которые будут определяться через регулярные выражения.",
+  "main": "snils.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MariDrozd/test.git"
+    "url": "git+https://github.com/Elbrus-Bootcamp/core-regular-expressions.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MariDrozd/test/issues"
+    "url": "https://github.com/Elbrus-Bootcamp/core-regular-expressions/issues"
   },
-  "homepage": "https://github.com/MariDrozd/test#readme",
-  "description": "",
+  "homepage": "https://github.com/Elbrus-Bootcamp/core-regular-expressions#readme",
   "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "eslint": "^9.21.0",
-    "globals": "^16.0.0"
+    "jest": "^28.1.0"
   }
 }
